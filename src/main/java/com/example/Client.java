@@ -88,7 +88,7 @@ public class Client
             this.parent = parent;
             start();
         }
-        
+
         @Override
         public void run() 
         {
@@ -123,16 +123,8 @@ public class Client
 
         public ClientThreadIn(Client parent)
         {
-            this.setParent(parent);
-            start();
-        }
-
-        public Client getParent() {
-            return parent;
-        }
-
-        public void setParent(Client parent) {
             this.parent = parent;
+            start();
         }
 
         @Override
