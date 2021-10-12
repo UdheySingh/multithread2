@@ -85,18 +85,10 @@ public class Client
         
         public ClientThreadOut(Client parent)
         {
-            this.setParent(parent);
+            this.parent = parent;
             start();
         }
         
-        public Client getParent() {
-            return parent;
-        }
-
-        public void setParent(Client parent) {
-            this.parent = parent;
-        }
-
         @Override
         public void run() 
         {
