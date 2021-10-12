@@ -78,7 +78,7 @@ public class Server
                             if(s == this)
                                 continue;
 
-                            s.outputStream.writeBytes("SERVER: " + clientName + " si è disconnesso\n");
+                            s.outputStream.writeBytes("SERVER: " + clientName + " si e' disconnesso\n");
                         }
                         break;
                     }
