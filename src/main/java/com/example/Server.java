@@ -95,7 +95,7 @@ public class Server
                     }
                     else
                     {
-                        outputStream.writeBytes("SERVER: errore, nessuno è in linea\n");
+                        outputStream.writeBytes("SERVER: errore, nessuno e' in linea\n");
                     }
                 }
                 close();

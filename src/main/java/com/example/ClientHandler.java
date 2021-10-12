@@ -52,7 +52,7 @@ class ClientHandler extends Thread
                         if(c == this)
                             continue;
 
-                        c.outputStream.writeBytes("SERVER: " + clientName + " si è disconnesso\n");
+                        c.outputStream.writeBytes("SERVER: " + clientName + " si e' disconnesso\n");
                     }
                     break;
                 }
@@ -69,7 +69,7 @@ class ClientHandler extends Thread
                 }
                 else
                 {
-                    outputStream.writeBytes("SERVER: errore, nessuno è in linea\n");
+                    outputStream.writeBytes("SERVER: errore, nessuno e' in linea\n");
                 }
             }
             close();
